@@ -1,0 +1,66 @@
+/* @font-face {
+  font-family: Squeid-Gameis;
+  src: url("./Squeid\ Gameis.ttf");
+} */
+
+
+body {
+ 
+  /* background-image: url("./images/galaxy.webp"); */
+  
+  
+  /* font-family: "Squeid-Gameis", serif; */
+  font-family: 'Orbitron', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0;
+}
+
+.hero {
+  color: #E0AD97;
+  /* margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 300px; */
+  text-align: center;
+  /* border-bottom: 100px; */
+  background-image: url("./images/universe.jpg");
+  background-size: cover;
+  padding: 10px 0 40px 0;
+  text-shadow: 4px 0px 5px white;
+}
+
+.apply {
+  border: none;
+  padding: 8px 18px;
+  background-color: #040000;
+  /* font-family: inherit; */
+  font-family: "Oxanium", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  color: #B58898;
+  font-weight: 900;
+  border-radius: 10px;
+}
+
+
+.underline {
+  /* text-decoration: underline; */
+  border-bottom: 4px solid #ffffff;
+}
+
+
+#space-logo {
+  width: 150px;
+}
+
+.terms {
+  background-color: #040000;
+  color: #B58898;
+  /* padding: 10px 0; */
+  text-align: center;
+  margin: 0;
+  padding: 13px 0;
+}
