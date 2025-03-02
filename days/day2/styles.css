@@ -1,0 +1,53 @@
+.main {
+    margin-top: 100px;
+}
+
+
+.img-main {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+
+
+.main-input {
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    /* height: 24px; */
+    line-height: 24px;
+}
+
+.btn {
+    /* display: block; */
+    /* width: 150px; not required as element has width already */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    margin-top: 30px;
+    border: none;
+    background-color: dfe1e5;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    font-size: medium;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* font-size: 14px; */
+}
+
+.myflex {
+    display: flex;
+    justify-content: center;
+}
