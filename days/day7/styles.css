@@ -1,0 +1,120 @@
+/*
+Challenge:
+Style the app according to the provided design.
+The font is called "Happy Monkey" and can be
+embedded via Google Fonts.
+
+Don't know how to make an image round? Google it!
+Also, consider how you should select the image 
+(class vs id vs element selector).
+*/
+
+body {
+    /* background-color: #a2d2ff; */
+    background: linear-gradient(blue, pink);
+    font-family: "Happy Monkey", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: white;
+}
+
+#header{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profile-img {
+    border-radius: 50%;
+    width: 200px;
+    border: 8px solid #EFB0C9;
+}
+
+
+h1,h2,h3,h4,p,a {
+    text-shadow: 0px 0px 1px black;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    border-radius: 9%;
+    margin-bottom: 10px;
+    margin: 15px 0 10px 0;
+
+}
+
+#bday-date {
+    background: #EFB0C9;
+    border-radius: 9%;
+    padding: 8px 10px;
+    margin: 0;
+}
+
+.gift-section {
+    color: white;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    margin-top: 40px;
+}
+
+.gift-img {
+    border: 9px solid white;
+    border-radius: 5px;
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-image: url(./images/gift-cover.jpg);
+    margin: 0 auto;
+}
+
+
+#gift-hint:hover {
+    background-image: url(./images/happy.gif);
+    transition-duration: 1s;
+}
+
+#react-img:hover {
+    background-image: url(./images/hot.gif);
+    transition-duration: 1s;
+}
+
+#genius-img:hover {
+    background-image: url(./images/genius.gif);
+    transition-duration: 1s;
+}
+
+#badass-img:hover {
+    background-image: url(./images/badass.gif);
+    transition-duration: 1s;
+}
+
+#gift-img-cheers{
+    height: 200px;
+}
+
+#gift-img-cheers:hover{
+    background-image: url(./images/cheers.gif);
+}
+
+.gift-heading {
+    margin-bottom: 10px;
+}
+
+.gift-subheading {
+    margin-top: 0;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+
+
+#footer{
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 30px;
+}
