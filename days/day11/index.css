@@ -1,0 +1,172 @@
+body {
+  background-image: url("https://media.cntraveler.com/photos/5b4deba9bc8649092721972f/16:9/w_2560,c_limit/Hank's-Cocktail-Bar_Erin-Lucas_2018_DSC_0454.jpg");
+  background-size: cover;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.699); /* Semi-transparent overlay */
+  background-blend-mode: darken; /* Blend the overlay with the image */
+  
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #cbc0ad;
+  text-shadow: 0px 0px 5px #55452a;
+  font-family: "Permanent Marker", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #cbc0ad;
+  text-shadow: 0px 0px 5px #55452a;
+  font-family: "Galindo", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+h3 {
+  color: #cbc0ad;
+  text-shadow: 0px 0px 5px #55452a;
+}
+
+
+
+button {
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  font-weight: bold;
+  width: 150px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#increment-btn {
+  background: #0fa3b1;
+  border: #0fa3b1;
+  font-family: "Galindo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#increment-btn:hover {
+  /* transition-delay: 1s; */
+  transition-duration: 1s;
+  background: #4db8ff;
+  box-shadow: 5px 5px 20px #f95738;
+  /* color: #000000; */
+}
+
+#decrease-btn {
+  background: #403d58;
+  border: #403d58;
+  font-family: "Galindo", serif;
+  font-weight: 400;
+  font-style: normal;
+  /* //rgb(88, 0, 100); */
+}
+
+#decrease-btn:hover {
+  /* transition-delay: 1s; */
+  transition-duration: 1s;
+  background: #4d4dff;
+  /* border: 1px solid #ffa64d; */
+  box-shadow: 5px 5px 20px #f95738;
+}
+
+#save-btn {
+  background: #f95738;
+  border: #f95738;
+  font-family: "Galindo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#save-btn:hover {
+  /* transition-delay: 1s; */
+  transition-duration: 1s;
+  background: #ffa64d;
+  box-shadow: 5px 5px 20px #f95738;
+}
+
+#save-el {
+  /* margin-top: 60px; */
+  color: #cbc0ad;
+  text-shadow: 0px 0px 5px #55452a;
+  font-family: "Galindo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.totalcount {
+  position: fixed;
+  /* bottom: 0; */
+  right: 0;
+  top: 0;
+  color: #f95738;
+  /* background-color: black; */
+  height: 100px;
+  width: 150px;
+  border-radius: 8px;
+  text-shadow: 0px 0px 5px #f95738;
+  font-family: "Galindo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#total {
+  font-size: 70px;
+  color: black;
+  text-shadow: 1px 1px 10px #f95738;
+}
+.container {
+  text-align: center;
+  align-items: center;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.clubcard {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width: 300px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  background-image: url(https://www.urbanbar.com/cdn/shop/articles/custom_resized_1919db06-4172-4f3d-bb62-e9fe2eb94888.jpg?v=1689838754&width=1500);
+  background-size: cover;
+  background-position: 50% 1%;
+  box-shadow: 1px 1px 25px #f95738;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+
+
+.style {
+  color: #ff6700;
+  color: #ebebeb;
+  color: #c0c0c0;
+  color: #3a6ea5;
+  color: #3a6ea5;
+  color: #004e98;
+}
