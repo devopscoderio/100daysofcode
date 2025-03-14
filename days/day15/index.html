@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1 class="headline lakers">Scoreboard</h1>
+      </div>
+      <div class="scorecard-points">
+        <div class="home">
+        <h1 class="titles">HOME</h1>
+        <h1 id="home-score" class="scorecard">0</h1>
+        <!-- <div class="btns"> -->
+        <button class="points-btn lakers" onclick="onePointHome()">+1</button>
+        <button class="points-btn lakers" onclick="twoPointHome()">+2</button>
+        <button class="points-btn lakers" onclick="threePointHome()">+3</button>
+        <!-- </div> -->
+
+      </div>
+      <div class="away">
+        <h1 class="titles">GUEST</h1>
+        <h1 id="guest-score" class="scorecard">0</h1>
+        <button class="points-btn lakers" onclick="onePointGuest()">+1</button>
+        <button class="points-btn lakers" onclick="twoPointGuest()">+2</button>
+        <button class="points-btn lakers" onclick="threePointGuest()">+3</button>
+      </div>
+      </div>
+      <div class="controlls">
+        <button class="lakers newgame" onclick="newGame()">New Game</button>
+        <button class="lakers newgame"  onclick="shotClock()">Shot Clock </button>
+
+      </div>
+    </div>
+        <script src="./script.js"></script>
+  </body>
+</html>
+
+
+
