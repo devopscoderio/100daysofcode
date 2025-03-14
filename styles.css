@@ -30,14 +30,7 @@ p {
   font-weight: 200;
   font-size: 20px;
 }
-a:active {
-  color: #000000;
-  text-decoration: none;
-}
-a:visited {
-  color: #000000;
-  text-decoration: none;
-}
+
 
 a {
   width: 284px;
@@ -51,12 +44,22 @@ a {
   padding: 40px;
   font-size: 30px;
   text-decoration: none;
+  color: #000000;
 }
 
 a:hover {
   border: 1px solid #dd6e42;
   color: #dd6e42;
   background-color: black;
+  text-decoration: none;
+  
+}
+a:active {
+  color: #000000;
+  text-decoration: none;
+}
+a:visited {
+  color: #000000;
   text-decoration: none;
 }
 
