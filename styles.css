@@ -47,12 +47,12 @@ a {
   color: #000000;
 }
 
-a:visited {
+/* a:visited {
   border: 1px solid #dd6e42;
   color: #000000;
   background-color: #dd6e42;
   text-decoration: none;
-}
+} */
 
 a:hover,a:active,a:visited,a:focus {
   border: 1px solid #dd6e42;
