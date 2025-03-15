@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 24 - Refactoring Code Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Day 24 - Refactoring Code</h1>
+
+    <!-- Before Refactoring -->
+    <h2>Before Refactoring</h2>
+    <p>Click the buttons to update the counter.</p>
+    <p id="counter-old">0</p>
+    <button onclick="increaseFive()">+5</button>
+    <button onclick="increaseTen()">+10</button>
+    <button onclick="resetCounter()">Reset</button>
+
+    <!-- After Refactoring -->
+    <h2>After Refactoring</h2>
+    <p>Click the buttons to update the counter.</p>
+    <p id="counter-new">0</p>
+    <button onclick="updateCounter(5)">+5</button>
+    <button onclick="updateCounter(10)">+10</button>
+    <button onclick="updateCounter(0, true)">Reset</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
