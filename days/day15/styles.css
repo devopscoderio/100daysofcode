@@ -1,0 +1,142 @@
+
+@font-face {
+  src: url("./font/CursedTimerUlil-Aznm.ttf");
+  font-family: CursedTimerUlil;
+}
+
+@font-face {
+  src: url("./font/Lakers\ Alt.ttf");
+  font-family: LakersHeading;
+}
+
+@font-face {
+  src: url("./font/Lakers.ttf");
+  font-family: Lakers;
+}
+
+body {
+  background-image: url("https://images.wallpapersden.com/image/download/kobe-bryant-los-angeles-lakers-nba_Z2ZsZ26UmZqaraWkpJRoaW5nrWdpamk.jpg");
+  background-color: rgba(250, 250, 250, 0.493);
+  background-blend-mode: lighten;
+  background-size: cover;
+}
+
+.headline {
+  font-size: 56px;
+  font-family: LakersHeading;
+  color:#F9A01B;
+  text-shadow:  -4px -3px 3px black;
+
+}
+
+.scorecard {
+  font-family: CursedTimerUlil;
+  padding: 20px 10px 15px 10px;
+  color: #AC0000;
+  background-color: black;
+  border-radius: 8px;
+  padding-top: 43px;
+  padding-bottom: 29px;
+  font-size: 60px;
+
+}
+
+.home {
+  padding-right: 40px;
+}
+
+.titles {
+  color: #F9A01B;
+  text-shadow: 0px 0px 2px black;
+  font-size: 40px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 640px;
+  display: block;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(#552583 60%, #F9A01B);
+  border-radius: 20px;
+
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;}
+
+.scorecard-points {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+
+.points-btn {
+  border-radius: 50%;
+  padding: 6px 11px 3px 4px;
+  border: none;
+  background-color: black;
+  font-family: Lakers;
+  color: #F9A01B;
+  /* text-align: center; */
+  font-size: 29px;
+  text-align: start;
+}
+
+.points-btn:hover {
+  border-radius: 50%;
+  padding: 6px 11px 3px 4px;
+  border: 3px solid #000000;
+  background-color: #F9A01B;
+  color: #000000;
+  /* text-align: center; */
+  font-size: 29px;
+  text-align: start;
+  font-family: LakersHeading;
+}
+
+
+
+.newgame {
+  background-color: black;
+  border: none;
+  border-radius: 30px;
+  padding-top: 17px;
+  padding-bottom: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-family: Lakers;
+  color: #F9A01B;
+}
+
+.newgame:hover {
+  border: 1px solid #000000;
+  background-color: #F9A01B;
+  color: #000000;
+  border-radius: 30px;
+  padding-top: 17px;
+  padding-bottom: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-family: LakersHeading;
+}
+
+.score {
+  padding-top: 10;
+}
+
+
+.controlls {
+  padding: 30px 0;
+  margin-top: 30px;
+}
