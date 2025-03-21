@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="main">
+            <div id="title">
+                <div>
+                    <h1>Generate a</h1>
+                    <h2>random password</h1>
+                    <h3>Never use an insecure password <br>again.</h3>
+                </div>
+                <div>
+                    <img id="padlock" alt="padlock" src="https://static.vecteezy.com/system/resources/thumbnails/038/941/119/small/3d-lock-and-password-field-png.png" />
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <label for="special">Spcecial Characters</label>
+                <input type="checkbox" id="special" name="special" value=true>
+                <label for="pwd-length">Password Length:</label>
+                <select name="passwordLength" id="pwd-length">
+                    <!-- <option value="">--Please choose an option--</option> -->
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                </select>
+            </div>
+            <div>
+                <button onclick="generatePassword()">Generate passwords</button>
+            </div>
+            <hr>
+            <div id="generatePassword">
+                <div>
+                    <!-- <p id="noOption"></p> -->
+                    <p class="password" id="pwdOne" onclick="copy(event)"></p>
+                    <p class="password" id="pwdTwo" onclick="copy(event)"></p>
+                    <p class="password" id="pwdThree" onclick="copy(event)"></p>
+                </div>
+                <div>
+                    <p class="password" id="pwdFour" onclick="copy(event)"></p>
+                    <p class="password" id="pwdFive" onclick="copy(event)"></p>
+                    <p class="password" id="pwdSix" onclick="copy(event)"></p>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

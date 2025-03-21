@@ -1,0 +1,120 @@
+body {
+    margin: 0px;
+    /* text-align: center; */
+    color:#9FAEDD;
+    display: flex;
+    font-family: "Exo 2", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+#main {
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border-radius: 8px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+#title {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+#padlock {
+    width: 100px;
+    margin-left: 71px;
+}
+
+h2 {
+    color: #777EE5;
+}
+
+h3 {
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    font-weight: 100;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+h1,h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.password {
+    background-color: #9FAEDD;
+    border: 2px solid #7274E2;
+    height: 20px;
+    width: 200px;
+    border-radius: 8px;
+    text-align: center;
+    color: #000000;
+    font-weight: 300;
+    font-size: 10px;
+    padding-top: 6px;
+    cursor: pointer;
+}
+
+.password:hover{
+    border-color: #2259ff;
+}
+
+#pwd-length {
+    border-radius: 6px;
+    background-color: #7274E2;
+    color: #1f1c1c;
+    border: none;
+}
+
+
+#generatePassword {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+}
+
+.dropdown {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 1%;
+  }
+
+hr {
+    width: 400px;
+    height: 1px;
+    color: #7274E2;
+    background-color: #7274E2;
+    border: none;
+  }
+
+button {
+color: #b7c3e9;
+background-color: #7274E2;;
+border: none;
+border-radius: 8px;
+padding: 8px 6px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+
+button:hover {
+  color: #000000;
+  background-color: #7274E2;
+  border-color: #9FAEDD; /* Change the border color on hover */
+}
